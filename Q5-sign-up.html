@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="">
+        <div>
+            <label for="Fname">First Name</label>
+            <input type="text" name="FirstName" id="Fname" minlength="3" required >
+        </div>
+        <div>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="LastName" id="Lname" minlength="3" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="150" required>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" minlength="3" required>
+        </div>
+        <div>
+            <label for="passward">Passward</label>
+            <input type="password" name="passward" id="passward" minlength="6" maxlength="15">
+        </div>
+        <div>
+            <label for="ConfirmPassward">Confirm Passward</label>
+            <input type="password" name="ConfirmPassward" id="ConfirmPassward" minlength="6" maxlength="15" required>
+        </div>
+        <div>
+            <input type="checkbox" name="Terms and Condition" id="T&C" required>
+            <label for="T&c"><a href="#">I Accept Terms And Condition</a></label>
+        </div>
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" name="" id="submit">
+        </div>
+        <div>
+            <p>Already Have an Account-<a href="Q5-login.html">Login</a></p>
+        </div>
+        
+    </form>
+</body>
+</html>
